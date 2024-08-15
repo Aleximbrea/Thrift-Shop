@@ -1,0 +1,27 @@
+.content {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+form {
+    padding: 5vh;
+    background-color: #FFFF;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url('../imgs/Sfondo.png');
+    background-size: 200px;
+}
+
+input {
+    border: 1px solid rgb(150, 150, 150) !important;
+}

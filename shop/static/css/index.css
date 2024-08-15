@@ -1,0 +1,51 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    font-size: 2vh;
+    height: 15vh;
+
+}
+
+.background {
+    position: absolute;
+    top: 7vh;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    background-image: url('../imgs/pexels-photosbycollis-3056057.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+    z-index: -1;
+    filter: blur(5px);
+}
+
+.content {
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    font-size: 5vh;
+    max-height: 17vh;
+}
+
+.page-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    margin: 4vh;
+    position: absolute;
+    bottom: 15vh;
+}
+
+.card {
+    max-width: fit-content;
+    max-height: 50vh;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.card-img-top {
+    aspect-ratio: 16 / 9;
+}

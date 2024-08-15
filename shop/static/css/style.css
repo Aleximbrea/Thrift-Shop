@@ -1,0 +1,11 @@
+* {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 8vh;
+    width: 100vw;
+    z-index: 1;
+}

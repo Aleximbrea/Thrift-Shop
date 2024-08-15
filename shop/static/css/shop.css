@@ -1,0 +1,56 @@
+.shop-page {
+    padding: 4vh;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-buttons {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.search-form {
+    border-radius: 5px;
+    background-color: #FFFF;
+    border: 1px solid black;
+    display: flex;
+
+}
+
+.submit-btn {
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.row {
+    margin-top: 0 !important; 
+}
+
+.col-auto {
+    margin-bottom: 0.5rem !important;
+    margin-top: 0.5rem !important    ;
+}
+
+.submit-btn:hover {
+    background-color: rgb(213, 213, 213);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    max-width: 15vw;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.cards {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+
+body {
+    background-image: url('../imgs/Sfondo.png');
+    background-size: 200px;
+}

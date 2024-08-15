@@ -1,0 +1,16 @@
+body {
+    background-image: url('../imgs/Sfondo.png');
+    background-size: 200px;
+}
+
+.info {
+    background-color: #FFFF;
+    max-width: fit-content;
+    padding: 2vw;
+}
+
+.item-list {
+    width: 100%;
+    height: 80vh;
+    background-color: #FFFF;
+}
